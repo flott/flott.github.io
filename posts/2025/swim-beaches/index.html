@@ -7,8 +7,8 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
-		<title>Fred Lott</title>
-		<meta name="description" content="My portfolio site">
+		<title>Swim beaches status</title>
+		<meta name="description" content="tk">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Fred Lott">
 		
 		<style>@charset "UTF-8";/*!
@@ -262,7 +262,7 @@ h6 strong {
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul>
 					<li>
-						<a href="/" class="contrast" aria-current="page">
+						<a href="/" class="">
 							Home
 						</a>
 					</li>
@@ -288,26 +288,203 @@ h6 strong {
 		<main id="skip" class="container">
 			<heading-anchors>
 				
+<style>/**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
 
-<h1 id="hello">Hello! 👋</h1>
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #ccc;
+	background: none;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
 
-<p>
-  <picture><source type="image/avif" srcset="/cdHywe2q8h-1024.avif 1024w"><source type="image/webp" srcset="/cdHywe2q8h-1024.webp 1024w"><img loading="lazy" decoding="async" src="/cdHywe2q8h-1024.jpeg" alt="me and my dog on a hike" width="1024" height="768"></picture>
-</p>
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
 
-<p>
-  I'm Fred, and I like maps, music, and m'dog. My background is in civil engineering and hydrology, and I work in the geospatial field.
-</p>
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
 
-<p>
-  I currently work for the King County GIS Center as a senior geospatial developer. I also had roles at King County as a senior GIS specialist in the GIS Center and as a river engineer for the River &amp; Floodplain Management Section.
-</p>
-<p>
-  With the GIS Center, I'm part of the Geo Engineering team and work on application development, automation, ETL processes, and data analysis.
-</p>
-<p>
-  Prior to King County
-</p>
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #2d2d2d;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #999;
+}
+
+.token.punctuation {
+	color: #ccc;
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+	color: #e2777a;
+}
+
+.token.function-name {
+	color: #6196cc;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+	color: #f08d49;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+	color: #f8c555;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+	color: #cc99cd;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+	color: #7ec699;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+	color: #67cdcc;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.token.inserted {
+	color: green;
+}
+</style>
+<style>/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+</style>
+<section>
+<hgroup>
+	<h1 id="swim-beaches-status">Swim beaches status</h1>
+  <p>tk</p>
+</hgroup>
+
+<ul class="post-metadata">
+	<li><small><time datetime="2025-02-03">03 February 2025</time></small></li>
+	<li><a href="/tags/etl/" class="badge">etl</a> </li>
+	<li><a href="/tags/python/" class="badge">python</a> </li>
+	<li><a href="/tags/power-automate/" class="badge">power-automate</a></li>
+</ul>
+<hr>
+</section>
+
+<section>
+
+<p>Is it safe to go swimming?</p>
+<p>ETL process (Power Automate and Python) and app to integrate SharePoint data into ArcGIS Online and provide a constantly-updated display of closed or hazardous swimming beaches.</p>
+
+
+
+</section>
+<section>
+	<hr>
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/posts/2025/state-of-gis/">King County State of GIS</a></li><li class="links-nextprev-next">Next →<br><a href="/posts/2025/kcgis-api/">King County GIS API</a></li>
+</ul>
+</section>
 
 			</heading-anchors>
 		</main>
@@ -316,7 +493,7 @@ h6 strong {
 			
 		</footer>
 
-		<!-- This page `/` was built on 2025-04-29T03:31:00.695Z -->
+		<!-- This page `/posts/2025/swim-beaches/` was built on 2025-04-29T03:31:00.696Z -->
 		
 	</body>
 </html>
